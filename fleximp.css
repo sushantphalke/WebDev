@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0
+
+}
+.container{
+    display: flex;
+    /*flex -wrap * : items inside contaienr will wrap in responsive/*
+    /*flex-direction: column;   -->> to change the direction of flex direction which is deafult row && column-revrse is also used to reverse the order of items */
+    /*justify-content: center;  -->> it is used to move the items in the center .Properties used in justify content are: right , left ,space-around  space-between , space-evenly*/
+   /*justify-content: flex-end;  -->> move itmes to the end of the flex */
+    /* justify content will move the object along the horiontal axis*/
+   width: 100%;
+   height: 1000px;
+   align-items: center;
+   justify-content: center;
+   /*align-items: flex-end; across the vertical axis of the container*/
+   /*
+   align items will move object along the vertical axis
+   you can ove object to the center of site */
+
+}
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin: 34px;
+    border: 2px solid black;
+  /*  align-self: center; we can align each items in the list individually*/
+  
+ 
+    
+  
+}
